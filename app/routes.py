@@ -15,12 +15,12 @@ def index2():
         createpassword = request.form["createpassword"]
         retypepassword = request.form["retypepassword"]
         if createpassword != retypepassword:
-            return "try again"
+            return render_template("index.html")
         elif len(createpassword) < 8 or model.countUpper(createpassword) == 0 or model.countLower(createpassword) == 0 or firstname.lower() in createpassword or lastname.lower() in createpassword or model.countSymbols(createpassword) == 0 or model.countNumbers(createpassword) == 0:
-            return "weak password"
+            return render_template("weak.html")
         elif len(createpassword) in range(8,12) or model.countUpper(createpassword) == 1 or model.countLower(createpassword) == 1 or model.countSymbols(createpassword) == 1 or model.countNumbers(createpassword) in range(2,4):
-            return "ok password" 
+            return render_template("ok.html") 
         else:
-            return "strong password"
+            return render_template("strong.html")
     else: 
         return render_template("index.html")

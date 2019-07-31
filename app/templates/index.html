@@ -23,13 +23,20 @@
 
         <body>
             <center>
-                <h1><font size = "10"><font color="white">JPMorgan Chase</font></h1>
+                <h1>
+                    <font size="10">
+                        <font color="white">JPMorgan Chase</font>
+                </h1>
+                <h20>
+                    <font size="5">
+                        <font color="white">Is your JPMorgan Chase bank account password strong enough? Please check below.</font>
+                </h20>
             </center>
 
             <border>
                 <center>
                     <div class="user-input">
-                        <form method="POST" action = "/passwordcheck">
+                        <form method="POST" action="/passwordcheck">
                             <input type="text" name="firstname" placeholder="Enter Your First Name" /> <br />
                             <input type="text" name="lastname" placeholder="Enter Your Last Name" /> <br />
                             <input type="password" name="createpassword" placeholder="Enter Password" /> <br />
@@ -39,6 +46,19 @@
                     </div>
                 </center>
             </border>
+
+
+
         </body>
+        <div class="password-criteria">
+            <h2>Password Criteria:</h2><br />
+            <h3>For a strong password, please have ALL of the following:</h3>
+            <ol>
+                <li>More than 1 capital letter</li>
+                <li>More than 1 lowercase letter</li>
+                <li>Atleast 4 numbers</li>
+                <li>More than 12 characters</li>
+                <li>More than 1 symbol</li>
+            </ol>
 
     </html>
