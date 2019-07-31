@@ -1,59 +1,61 @@
-.user-input {
-    margin-top: 25px;
-    border-style: solid;
-    border-color: black;
-    width: 250px;
-    padding: 40px;
-    border: 1px solid white;
-    border-radius: 8px;
-    background-color: white;
-    font-size: 24px;
+/*.user-input {*/
+/*    margin-top: 25px;*/
+/*    border-style: solid;*/
+/*    border-color: black;*/
+/*    width: 250px;*/
+/*    padding: 40px;*/
+/*    border: 1px solid white;*/
+/*    border-radius: 8px;*/
+/*    background-color: white;*/
+/*    font-size: 24px;*/
 
-}
+/*}*/
 
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 2px solid grey;
-}
+/*input[type=text] {*/
+/*  width: 100%;*/
+/*  padding: 12px 20px;*/
+/*  margin: 8px 0;*/
+/*  box-sizing: border-box;*/
+/*  border: none;*/
+/*  border-bottom: 2px solid grey;*/
+/*}*/
 
-input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 2px solid grey;
-}
+/*input[type=password] {*/
+/*  width: 100%;*/
+/*  padding: 12px 20px;*/
+/*  margin: 8px 0;*/
+/*  box-sizing: border-box;*/
+/*  border: none;*/
+/*  border-bottom: 2px solid grey;*/
+/*}*/
 
-form {
-    position: relative;
+/*form {*/
+/*    position: relative;*/
     /*border: 2px solid;*/
-    top: 1px;
-}
+/*    top: 1px;*/
+/*}*/
 
 .background-image {
-    background-image: url(http://www.chasetower.com/images/animation2/13.jpg);
+    background-image: url(http://sf.co.ua/15/08/wallpaper-21fe4.jpg);
     background-repeat: no-repeat;
     background-size: 1355px 700px;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
-  background-color: #003c69;
-  border: none;
-  color: white;
-  padding: 10px 100px;
-  text-decoration: none;
-  margin: 35px 4px;
-  cursor: pointer;
-  border-radius: 8px;
-}
 
-.password-criteria {
-    margin-left: -40px;
-    padding: 80px;
 
-}
+/*input[type=button], input[type=submit], input[type=reset] {*/
+/*  background-color: #003c69;*/
+/*  border: none;*/
+/*  color: white;*/
+/*  padding: 10px 100px;*/
+/*  text-decoration: none;*/
+/*  margin: 35px 4px;*/
+/*  cursor: pointer;*/
+/*  border-radius: 8px;*/
+/*}*/
+
+/*.password-criteria {*/
+/*    margin-left: -40px;*/
+/*    padding: 80px;*/
+
+/*}*/
