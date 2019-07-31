@@ -2,22 +2,35 @@
     margin-top: 200px;
     border-style: solid;
     border-color: black;
-    width: 400px;
-    height: 200px;
-    padding: 50px;
-    border: 1px solid red;
+    width: 300px;
+    height: 100px;
+    padding: 75px;
+    border: 1px solid white;
+    border-radius: 8px;
     background-color: white;
-    font-size:24px;
+    font-size: 24px;
+
 }
 
 form {
     position: relative;
     /*border: 2px solid;*/
-    top: 50px;
+    top: 1px;
 }
 
 .background-image {
     background-image: url(http://www.chasetower.com/images/animation2/13.jpg);
     background-repeat: no-repeat;
     background-size: 1440px 700px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #3B00FF;
+  border: none;
+  color: white;
+  padding: 10px 75px;
+  text-decoration: none;
+  margin: 8px 4px;
+  cursor: pointer;
+  border-radius: 8px;
 }
