@@ -57,3 +57,18 @@ input[type=button], input[type=submit], input[type=reset] {
     padding: 80px;
 
 }
+
+#passcrit {
+  color:#003c69;
+  margin-bottom: 0px;
+}
+
+#passcrit2 {
+  color:#003c69;
+  margin-top: 0px;
+}
+
+.copyright {
+  font-size: 17px;
+  color: grey;
+}
